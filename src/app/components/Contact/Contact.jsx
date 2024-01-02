@@ -1,11 +1,11 @@
-import './contactStyles.css';
+import './ContactStyle.css';
 import GeneralButton from '../GeneralButton/GeneralButton'
 
 export default function Contact() {
     return (
-        <section className='contactsection'>
+        <section className='contact__section'>
             <form>
-                <div className='namecontainer'>
+                <div className='name__container'>
                     <label htmlFor="name"></label>
                     <input 
                     type="text" 
@@ -33,7 +33,7 @@ export default function Contact() {
                     />
                 </div>
             </form>
-            <GeneralButton to= {''} text={'Send'}/>
+            <GeneralButton to= {''} text={'Send'} style={{fontSize: '18px', padding: '5px 55px' }}/>
         </section>
     )
 };

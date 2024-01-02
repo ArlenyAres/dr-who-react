@@ -1,0 +1,19 @@
+/* .image_Container {
+    width: 20%;
+    height: 0%;
+} */
+
+.SymbolBlue {
+    position: absolute;
+}
+
+.SymbolWhite {
+    position: absolute;
+    top: 33.4rem;
+}
+
+.SymbolYellow {
+    position: absolute;
+    bottom: 11.9rem;
+    left: 21.8rem;
+}

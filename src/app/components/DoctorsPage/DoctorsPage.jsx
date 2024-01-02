@@ -22,7 +22,7 @@ export default function DoctorsPage() {
             <p className={montserrat.className}>{doctor.screen_time}</p>
         </div>
         
-        <div className='but'>
+        <div className='butt'>
         <GeneralButton to="https://www.doctorwho.tv" text='Ver más' style={{fontSize: '20px', padding: '9px 50px' }}/>
         </div>
     </div>

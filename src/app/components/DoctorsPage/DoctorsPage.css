@@ -38,6 +38,7 @@
     font-weight: 100;
   }
 
-  .but {
-    margin-top: 0;
+  .butt {
+   margin-top: 0;
+   position: none;
   }

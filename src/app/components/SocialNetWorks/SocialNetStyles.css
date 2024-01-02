@@ -1,0 +1,9 @@
+.social__media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social__media a {
+    margin-right: 1.3rem; 
+}

@@ -41,7 +41,7 @@ const Carrousel = () => {
             alt={imagesCarousel[currentImageIndex].title}
             src={imagesCarousel[currentImageIndex].imgUrl}
             layout="fill"
-            objectFit="cover"
+            style={{ objectFit: 'cover' }}
             />
             <div className="image-content">
                 <h1>{imagesCarousel[currentImageIndex].title}</h1>

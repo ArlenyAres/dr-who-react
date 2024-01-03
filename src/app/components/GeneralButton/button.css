@@ -1,0 +1,14 @@
+.btn__component {
+    background-color: var(--bg-second);
+    padding: 0.5rem 4rem;
+    border-radius: 2rem;
+    /* width:max-content; */
+    color: var(--bg-general);
+    font-weight: 700;
+    width: max-content;
+    font-size: 30px;
+}
+
+.section__btn{
+    margin: 3.5rem 0;
+}

@@ -1,0 +1,56 @@
+body {
+    padding-top: 2rem;
+}
+.about__container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1; 
+}
+
+.about__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
+    /* width: 40rem; */
+}
+
+h1 {
+    font-size: 3.5rem;
+    width: 47rem;
+    text-align: center;
+}
+
+.about__text {
+    font-size: 1.5rem;
+    width: 33rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.vermas__btn {
+    padding: 1rem 8rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.about__image {
+    width: 400px;
+    height: 570px;
+    position: relative;
+    padding-bottom: 2.5rem;
+}
+
+.about__image::before {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+}
+

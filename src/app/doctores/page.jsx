@@ -1,11 +1,13 @@
-import React from 'react';
-import DoctoresPages from '../components/DoctorsPage/DoctorsPage';
+// link doctores
+"use client"
+import DoctorSearch from '../components/DoctorSearch/DoctorSearch';
+import doctorsData from '/public/doctors.json'; 
 
-
-export default function page() {
+export default function Page() {
   return (
     <div>
-      <DoctoresPages/>
+      <DoctorSearch doctorsData={doctorsData.doctors} />
+      {/* Otros elementos de tu página de doctores, como encabezado, etc. */}
     </div>
-  )
+  );
 }

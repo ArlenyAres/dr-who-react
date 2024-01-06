@@ -1,24 +1,38 @@
-'use client';
+// DoctorSearch.jsx component
 import React, { useState, useEffect } from 'react';
+import DoctorsCards from '../DoctorsCards/DoctorsCards'
+import { useSearchContext } from '../../SearchContext'
+import doctorsData from '/public/doctors.json';
+import './DoctorSearch.css';
 
-const DoctorSearch = ({ onSearch }) => {
-  const [searchTerm, setSearchTerm] = useState('');
+export default function DoctorSearch() {
+  const { search } = useSearchContext();
+
+  const [docData, setDocData] = useState([]);
+  
 
   useEffect(() => {
-    onSearch(searchTerm);
-  }, [searchTerm]);
+    setDocData(doctorsData.doctors);
+  }, []);
+
+  // Metodo de filtro para aplicar la busqued
+  const filteredDoctors = docData
+    ? docData.filter(
+        (doctor) =>
+          doctor.doctor.toLowerCase().includes(search.toLowerCase()) ||
+          doctor.actor.toLowerCase().includes(search.toLowerCase())
+      )
+    : [];
+
+  // Funcion para hacer ls cambios en la entrada de bsqued
+  const handleSearchChange = (e) => {
+    setSearch(e.target.value);
+  };
 
   return (
     <div>
-      {/* Puedes personalizar el estilo según tus necesidades */}
-      <input
-        type="text"
-        placeholder="Buscar por nombre o actor..."
-        value={searchTerm}
-        onChange={(e) => setSearchTerm(e.target.value)}
-      />
+     {/* <SearchBar search={search} handleSearchChange={handleSearchChange} /> */}
+      <DoctorsCards doctors={filteredDoctors} />
     </div>
   );
-};
-
-export default DoctorSearch;
+}

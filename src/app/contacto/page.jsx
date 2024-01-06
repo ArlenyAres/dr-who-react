@@ -1,3 +1,4 @@
+//link contacto
 import Contact from '../components/Contact/Contact'
 import React from 'react';
 import Symbols from '../components/Symbols/Symbols';

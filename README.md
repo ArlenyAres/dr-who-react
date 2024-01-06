@@ -6,7 +6,7 @@ Este proyecto tiene como objetivo desarrollar la página web en español de la i
 ## Instalación
 
 1.Clona el repositorio desde GitHub:
-git clone https://github.com/tuusuario/doctor-who-website.git
+git clone [https://github.com/tuusuario/doctor-who-website.git](https://github.com/ArlenyAres/dr-who-react.git)
 
 2.Entra al directorio del proyecto:
 cd doctor-who-website

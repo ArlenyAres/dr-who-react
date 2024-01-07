@@ -1,12 +1,12 @@
 
 ## Doctor Who Website - React.js & Next.js
 
-Este proyecto tiene como objetivo desarrollar la página web en español de la icónica serie de televisión "Doctor Who". La implementación se realizará utilizando React.js y Next.js para garantizar la escalabilidad del proyecto. Se deben seguir las pautas de diseño proporcionadas en la maqueta, y la aplicación debe ser totalmente receptiva, adaptándose a dispositivos móviles y de escritorio.
+Este proyecto de practica tiene como objetivo desarrollar la página web en español de la icónica serie de televisión "Doctor Who". La implementación se realizará utilizando React.js y Next.js para garantizar la escalabilidad del proyecto. Se deben seguir las pautas de diseño proporcionadas en la maqueta, y la aplicación debe ser totalmente receptiva, adaptándose a dispositivos móviles y de escritorio.
 
 ## Instalación
 
 1.Clona el repositorio desde GitHub:
-git clone https://github.com/tuusuario/doctor-who-website.git
+git clone [https://github.com/tuusuario/doctor-who-website.git](https://github.com/ArlenyAres/dr-who-react.git)
 
 2.Entra al directorio del proyecto:
 cd doctor-who-website
@@ -53,6 +53,12 @@ Abre un pull request en GitHub.
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Tecnologias utilizadas
+ React
+ Next
+ JavaScrip
+ Css Modules
+ 
 ## Getting Started
 
 First, run the development server:

@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-import SymbolsStyles from './SymbolsStyle.css'
+import './SymbolsStyle.css'
 
 const imgSymbolBlue = '/assets/img/symbols/persistencia-2.png'
 const imgSymbolYellow = '/assets/img/symbols/resistencia.png'

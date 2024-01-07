@@ -1,0 +1,21 @@
+.symbol__container {
+    position: absolute;
+    z-index: 3;
+}
+
+.symbol_yellow {
+    position: absolute;
+    bottom: 1rem;
+    left: 35rem;
+    top: 0.1rem ;
+    z-index: -1;
+
+}
+
+.symbol__violet {
+    position: absolute;
+    bottom: -3rem;
+    left: 5rem;
+    z-index: -1;
+
+}

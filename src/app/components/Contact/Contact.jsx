@@ -1,6 +1,7 @@
 import './ContactStyle.css';
 import GeneralButton from '../GeneralButton/GeneralButton'
 
+
 export default function Contact() {
     return (
         <section className='contact__section'>

@@ -5,9 +5,11 @@ import Image from "next/image";
 import ThirteenDoctor from '/public/assets/img/doctors/Thirteenth_Doctor_Jodie_Whittaker.jpg';
 import { lato, montserrat } from '../fonts';
 import './conoce.css';
-import ButtonComponent from '../components/GeneralButton/GeneralButton';
+import '../components/GeneralButton/GeneralButton';
 import { useSearchContext } from '../SearchContext';
 import GeneralButton from "../components/GeneralButton/GeneralButton";
+import '../components/BackSymbols/BackSymbols';
+import BackSymbols from "../components/BackSymbols/BackSymbols";
 
 
 export default function AboutPage() {
@@ -16,7 +18,7 @@ export default function AboutPage() {
 
     useEffect(() => {
       // Configurar la búsqueda específica para "Conoce a ..."
-        setSearch('Decimotercera Doctor');
+        setSearch('');
     }, []); // Esto se ejecuta solo en el lado del cliente, despus de que el componente se haya montado
 
     const handleSearchClick = () => {
@@ -35,6 +37,7 @@ export default function AboutPage() {
                     className={`${montserrat.className} ${'vermas__btn'}`}
                     onClick={handleSearchClick} // Ahora el manejo de clics incluir la redirección
                 />
+                
             </section>
             <aside className="about__image-container">
                 <Image
@@ -43,7 +46,9 @@ export default function AboutPage() {
                     objectFit="auto"
                     className="about__image"
                 />
+                
             </aside>
+            <BackSymbols/>
         </div>
     );
 }

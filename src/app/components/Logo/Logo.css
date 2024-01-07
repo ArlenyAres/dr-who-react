@@ -1,9 +1,12 @@
 .logo__img {
+   /*position: absolute;*/
     margin: 2rem;
     padding-right: 3.5rem;
+    z-index: 2;
 }
 
 .logo__img img {
+    position: relative;
     margin-top: 3.5rem;
     
 }
